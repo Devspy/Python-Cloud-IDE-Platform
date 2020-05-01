@@ -18,11 +18,9 @@ ch=int(input("Enter your choice:"))
 if(ch==1):
 	print("please wait your Downloading take several minutes")
 	x1=subprocess.getoutput("docker pull theiaide/theia-python")
-	print(x1)
 	print("Download Sucessfully")
 elif(ch==2):
 	y=subprocess.getoutput("pip install docker-compose")
-	print(y)
 	print("Sucessfully installed Docker-compose")
 	f=open('docker-compose.yml','w')
 	f.write("""version: '3'
