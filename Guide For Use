@@ -1,0 +1,30 @@
+Requirement For USE:
+
+1)Operating System:
+Redhat Linux 8
+
+Software that are required to run this project:-
+1)python3
+2)Docker community Edition
+3)Pip
+
+How To use:-
+After Installation of python3 and Docker in Redhat8 System
+
+
+Download the file manage.py
+#git clone https://github.com/Devspy/Python-Cloud-IDE-Platform.git
+#cd Python-Cloud-IDE-Platform
+#chmod +x manage.py
+
+Now Run the manage.py File For setup
+#python3 manage.py
+
+Now what your requirement setup through this script.
+
+Note:- whenever setup is complete check server IP
+Cloud Service port number is 555
+If server IP is: 192.168.43.6
+then use 192.168.43.6:555  in client browser For access Python CLoud IDE Platform.
+
+
