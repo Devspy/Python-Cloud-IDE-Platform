@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  IDE:
+    image: theiaide/theia-python
+    volumes:
+      - myworkbench:/home/project
+    restart: always
+    ports:
+      - 555:3000
+
+volumes:
+  myworkbench:
