@@ -43,6 +43,7 @@ volumes:
 	x3=subprocess.getoutput("docker-compose up -d")
 	print("Sucessfully Configure your cloud IDE")
 	print("Default port number is 555")
+	print("check Server IP and use, For eg:(192.168.43.6:555) use in Browser for access IDE")
 
 elif(ch==3):
 	x3=subprocess.getoutput("docker-compose start")
